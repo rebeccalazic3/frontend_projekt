@@ -10,7 +10,7 @@ export default {
   },
 
   update(id, visitData) {
-    return api.put(`/visits/${id}`, visitData)
+    return api.patch(`/visits/${id}`, visitData)
   },
 
   remove(id) {
