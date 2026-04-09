@@ -2,7 +2,7 @@ import axios from 'axios'
 import router from '@/router'
 
 const api = axios.create({
-  baseURL: 'backendprojekt-production.up.railway.app',
+  baseURL: 'https://backendprojekt-production.up.railway.app',
   timeout: 5000,
 })
 
